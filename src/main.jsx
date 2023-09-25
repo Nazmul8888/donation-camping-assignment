@@ -9,8 +9,10 @@ import {
 } from "react-router-dom";
 import MainLayout from './components/MainLayout/MainLayout';
 import Home from './components/Home/Home';
-import Donation from './components/Donation/Donation';
+import Donation from './components/Donation/DonationList';
 import Statistics from './components/Statistics/Statistics';
+import DonationDetails from './components/Donation/DonationDetails';
+import DonationList from './components/Donation/DonationList';
 
 const router = createBrowserRouter([
   {
@@ -20,17 +22,31 @@ const router = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Home></Home>
+        element: <Home></Home>,
+        loader: ()=> fetch('/data.json')
       },
       {
         path:'/donation',
         element:<Donation></Donation>,
+
+      },
+      {
+        path:'/donation/:name',
+        element: <DonationDetails></DonationDetails>,
+        loader: ()=> fetch('/data.json'),
+        
+      },
+      {
+        path:'/donation-list',
+        element: <DonationList></DonationList>,
+        
+        
       },
 
       {
         path: '/Statistics',
         element: <Statistics></Statistics>
-      }
+      },
     ]
 
   },

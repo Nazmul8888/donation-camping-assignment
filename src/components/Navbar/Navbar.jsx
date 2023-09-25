@@ -1,5 +1,5 @@
 
-import { NavLink } from 'react-router-dom';
+import { NavLink,Link } from 'react-router-dom';
 import Logo from '../Logo/Logo';
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
            <Logo></Logo>
             <ul className='flex gap-10' >
                 <li>
-                    <NavLink
+                    <Link
                     to="/"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-green-400 underline": ""
@@ -17,30 +17,30 @@ const Navbar = () => {
                           >
                        Home
 
-                    </NavLink>
+                    </Link>
               </li>
 
               <li>
-                    <NavLink
-                    to="/"
+                    <Link
+                    to="/donation"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-red-400 underline": ""
                          }
                           >
                       Donation
 
-                    </NavLink>
+                    </Link>
               </li>
               <li>
-                    <NavLink
-                    to="/"
+                    <Link
+                    to="/statistics"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-yellow-400 underline": ""
                          }
                           >
                       Statistics
 
-                    </NavLink>
+                    </Link>
               </li>
             </ul>
             </nav>

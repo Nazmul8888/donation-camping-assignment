@@ -1,74 +1,100 @@
 [
     {
-      "name": "Introduction to C Programming",
+      "name": "Health",
       "imgage": "https://i.ibb.co/pbwM4bn/Clothing.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Clean water for children",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#F39F5A"
+
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Education",
       "imgage": "https://i.ibb.co/hWtZyxv/Education.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Good education",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#BEFFF7"
+
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Clothing",
       "imgage": "https://i.ibb.co/yqWP7tY/Rectangle-4287.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Better Food for Everyone",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#C70039"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Food",
       "imgage": "https://i.ibb.co/rshqpG3/Food.png",
       "deatils": "Introduction",
-      "price_price": 700
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#BEFFF7"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Food",
       "imgage": "https://i.ibb.co/F36tsyg/Health.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Better Food for Everyone",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#C70039"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Clothing",
       "imgage": "https://i.ibb.co/0tjwQY3/Rectangle-4284.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Used Clothing Drive",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#BEFFF7"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Education",
       "imgage": "https://i.ibb.co/yqWP7tY/Rectangle-4287.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Good education",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#C70039"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Health",
       "imgage": "https://i.ibb.co/hFs3dwP/Rectangle-4287-1.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Clean water for children",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#BEFFF7"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Health",
       "imgage": "https://i.ibb.co/dLhrC2q/Rectangle-4287-2.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Clean water for children",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#C70039"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Education",
       "imgage": "https://i.ibb.co/pbwM4bn/Clothing.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Good education",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#BEFFF7"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Clothing",
       "imgage": "https://i.ibb.co/L5QmmQ9/Rectangle-4288.png",
-      "deatils": "Introduction",
-      "price_price": 700
+      "deatils": "Used Clothing Drive",
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#C70039"
     },
     {
-      "name": "Introduction to C Programming",
+      "name": "Food",
       "imgage": "https://i.ibb.co/0tjwQY3/Rectangle-4284.png",
       "deatils": "Introduction",
-      "price_price": 700
+      "description":"There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.",
+      "price_price": 700,
+      "color":"#8DDFCB"
     }
   ]
