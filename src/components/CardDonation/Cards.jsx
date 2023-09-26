@@ -17,13 +17,7 @@ const Cards = ({cards}) => {
     
       ))}
 
-            {/* {cards.map(card => {
-                <>
-                <Link to={`/donation/${card.name}`} >
-                <Card key={card.id} card={card}></Card>)
-                </Link>
-               </>
-            })} */}
+
         
         
         </div>

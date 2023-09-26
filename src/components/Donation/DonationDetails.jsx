@@ -48,11 +48,13 @@ const DonationDetails = () => {
                 <img className="max-w-[1320px] mx-auto w-[1300px] " src={singleDonationObj.imgage} alt="" />
                 <div className="relative bottom-[95px] h-24 bg-black bg-opacity-30 w-[1300px]">
                 </div>
-                <button className= "relative bottom-[166px] left-10  bg-red-600 px-10 py-2.5 text-white rounded-lg" onClick={() => donate(singleDonationObj)}>Donate</button>
+                <button className= "relative bottom-[166px] left-10  bg-red-600 px-10 py-2.5 text-white rounded-lg" onClick={() => donate(singleDonationObj)}>Donate $ </button>
             </div>
            
 
-            <h1>{singleDonationObj.name}</h1>
+            <h1 className="text-3xl font-bold ">{singleDonationObj.name}</h1>
+            <br />
+            <br />
 
             <p>{singleDonationObj.description}</p>
 

@@ -2,30 +2,23 @@
 
 const Card = ({card}) => {
 
-    const{name,imgage,deatils, color}= card;
+    const{name,imgage,deatils, name_bg,card_bg, text_button_bg,button_bg,price_price}= card;
 
-    // Dynamic class combining background color
+    
 
     return (
         <div className="py-20">
-           <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
-  <div className="relative mx-4 -mt-6 h-56 overflow-hidden rounded-xl bg-blue-gray-500 bg-clip-border text-white shadow-lg shadow-blue-gray-500/40">
-    <img
-      src={imgage}
-      alt="img-blur-shadow"
-      layout="fill"
-    />
-  </div>
-  <div className="p-6">
-    <h5 className="mb-2 block font-sans text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
-      {name}
-    </h5>
-    <p className="block font-sans text-base font-semibold leading-relaxed text-inherit antialiased">
-      {deatils}
-    </p>
-  </div>
-  
-</div>
+          <div className="card w-96 bg-base-100 shadow-xl" style={{background:`${card_bg}`}}>
+        <figure><img src={imgage} alt="Shoes" /></figure>
+        <div className="card-body">
+        <h2 className="card-title text-[16px] bg-[${name_bg}] font-medium px-2 w-[60%] text-center " style={{color: `${text_button_bg}`, background: `${name_bg}`}}>{name}</h2>
+        <p className="text-[22px] font-semibold">{deatils}</p>
+        <p className="text-[20px] font-semibold" style={{color: `${text_button_bg}`}}>{}</p>
+
+        {/* <button className="btn btn-neutral border-none text-white" style={{background: `${button_bg}` }}>bbbb</button> */}
+        
+      </div>
+        </div>
         </div>
     )
 };

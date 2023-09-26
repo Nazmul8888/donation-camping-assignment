@@ -9,8 +9,10 @@ const Banner = () => {
     <div className="d">
       <h1 className="mb-5 text-5xl font-bold text-black">I Grow By Helping People In Need</h1>
       <div>
-        <input className=" w-470px h-16px rounded" type="email" name="" placeholder="Search here" />
-      <button className="w-100px h-50px font-semibold rounded bg-[#FF444A]">Search</button>
+       <input className=" btn"type="email" name="" placeholder=" Search here" />
+       <button className="  h-10 bg-[#FF444A] rounded">Search</button>
+        
+
       </div>
 
 
