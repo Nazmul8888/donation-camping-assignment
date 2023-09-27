@@ -9,7 +9,7 @@ const Navbar = () => {
            <Logo></Logo>
             <ul className='flex gap-10' >
                 <li>
-                    <Link
+                    <NavLink
                     to="/"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-green-400 underline": ""
@@ -17,11 +17,11 @@ const Navbar = () => {
                           >
                        Home
 
-                    </Link>
+                    </NavLink>
               </li>
 
               <li>
-                    <Link
+                    <NavLink
                     to="/donation"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-red-400 underline": ""
@@ -29,10 +29,10 @@ const Navbar = () => {
                           >
                       Donation
 
-                    </Link>
+                    </NavLink>
               </li>
               <li>
-                    <Link
+                    <NavLink
                     to="/statistics"
                     className={({ isActive, isPending }) =>
                     isPending ? "pending" : isActive ? "text-yellow-400 underline": ""
@@ -40,7 +40,7 @@ const Navbar = () => {
                           >
                       Statistics
 
-                    </Link>
+                    </NavLink>
               </li>
             </ul>
             </nav>

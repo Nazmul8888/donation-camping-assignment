@@ -1,4 +1,6 @@
 
+// This is card section
+
 
 const Card = ({card}) => {
 
@@ -7,7 +9,7 @@ const Card = ({card}) => {
     
 
     return (
-        <div className="py-20">
+        <div className="py-10">
           <div className="card w-96 bg-base-100 shadow-xl" style={{background:`${card_bg}`}}>
         <figure><img src={imgage} alt="Shoes" /></figure>
         <div className="card-body">
